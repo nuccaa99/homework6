@@ -103,3 +103,48 @@ section {
     font-weight: 400;
     line-height: normal;
 }
+
+/* footer */
+
+footer {
+    background: #758BFD;
+    padding: 75px 98px 105px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact_info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.contact_info_title {
+    color: #FFF;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.2px;
+}
+
+.contact_into_links {
+    display: flex;
+    column-gap: 15px;
+    align-items: flex-end;
+}
+
+.contact_link {
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.payment_cards {
+    display: flex;
+    column-gap: 11px;
+}
+
+.payment_card {
+    width: 97px;
+    height: 55px;
+}
